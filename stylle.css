@@ -1,0 +1,93 @@
+body {
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2, 2ex;
+    color: #818181;
+    margin: auto;
+    margin-top: auto;
+
+}
+
+header {
+    background-color: #f4511e;
+
+}
+
+section footer {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 63;
+    color: #303030;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+nav li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav li {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav {
+    font-size: 12px;
+    letter-spacing: 4px;
+    height: 10px;
+    background-color: rgb(243, 39, 39);
+    padding-right: 50px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    color: #303030;
+    padding: 5px;
+}
+
+table tr:nth-child(even){
+    background: color #e9e9e9;
+}
+
+table tr:nth-child(odd){
+    background-color: #bdbdbd;
+}
+
+table thead th{
+    background: #f4511e;
+    color: white;
+}
+
+#pacotes .figuras .figure{
+
+    display: inline-block;
+}
+
+#pacotes .figuras{
+    text-align: center;
+    
+}
+#pacotes .figuras, #pacotes .videos{
+    text-align: center;
+}

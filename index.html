@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylle.css">
+    <title>Viagem dos Sonhos</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">cidades</a></li>
+                <li><a href="#">contatos</a></li>
+            </ul>
+        </nav>
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+    <section id="pacotes">
+        <h2>Conheça nossos pacotes!</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint laudantium odit non dolores
+            ratione
+            repellendus similique tempore quae harum dicta atque, labore consectetur! Numquam expedita nisi incidunt
+            doloremque cupiditate?
+            <Br><Br>
+            <a href="https://www.lipsum.com/">Link</a>
+
+        </p>
+        <hr>
+        <div class="figuras">
+            <figure style="display: inline-block;">
+                <img src="img/cristorj.png" alt="cristo redentor rj">
+                <figcaption style="cursor:wait;">Rio de Janeiro</figcaption>
+            </figure>
+            <figure style="display: inline-block;">
+                <img src="img/dunasmaraipeal.png" alt="Dunas Maceio Al">
+                <figcaption style="cursor:wait;">Maceio</figcaption>
+            </figure>
+            <figure style="display: inline-block;">
+                <img src="/img/lagoparanoadf.png" alt="Lago Paranoa DF">
+                <figcaption style="cursor:wait;">Brasilia</figcaption>
+            </figure>
+            <figure style="display: inline-block;">
+                <img src="/img/pelourinhoba.png" alt="Pelourinho BA">
+                <figcaption style="cursor:wait;">Bahia</figcaption>
+            </figure>
+        </div>
+
+        <div class="videos">
+            <video controls width="420" height="320">
+                <source src="videos/pexels-roman-odintsov-6577549 (2160p).mp4" type="video/mp4">
+                <source src="videos/pexels-swapnil-shiwalay-20329674 (1080p).webm" type="video/webm">
+                Seu navegador nao suporta esse tipo de midia. <a
+                    href="videos/pexels-roman-odintsov-6577549 (2160p).mp4">click
+                    aqui para baixar</a>
+            </video>
+        </div>
+
+
+    </section>
+
+    <section>
+        <h2>Taxas de serviços</h2>
+        <table>
+            <caption>Descriçao dos serviços e respectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Respectivos valores</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>reserva de hotel</td>
+                    <td>valor R$500,00</td>
+                </tr>
+                <tr>
+                    <td>reserva de veiculo</td>
+                    <td>valor R$300,00</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+    <fieldset>
+        <h2>Orcamento</h2>
+        <form method="GET" action="">
+
+            <label>Nome</label><br>
+            <input type="text" name="Nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" required name="email"><br><br>
+
+            <label>Data de Ida</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label>Data de Volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de Pessoas</label><br>
+            <input type="number" required name="qtdPessoas"><br><br>
+
+
+    </fieldset>
+
+    <fieldset><br>
+        <legend>Quais serviços deseja contratar</legend>
+        <label>
+            <br><input type="CheckBox" name="passagens" value="Passagens">Compras de Passagens
+        </label>
+        <label>
+            <br><input type="Checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+        </label>
+        <label>
+            <br><input type="CheckBox" name="veiculos" value="Veiculos">Reserva de veiculos
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Escolha a forma de pagamento</legend>
+        <label>
+            <br><input type="radio" name="FormadePagamento" value="Cartão de credito">cartao de credito
+        </label>
+        <label>
+            <br><input type="radio" name="FormadePagamento" value="Boleto">boleto
+        </label>
+        <label>
+            <br><input type="radio" name="FormadePagamento" value="Pix">Pix
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Escolha o prazo para pagamento</legend>
+        <select name="PrazoPagamento">
+            <option value="Avista">A vista</option>
+            <option value="5xSemJuros">5xSemJuros</option>
+            <option value="10xcomJuros" selected>10xComJuros</option>
+        </select>
+    </fieldset>
+    <label>Senha</label><br>
+    <input type="password" name="senha"><br><br>
+
+
+    <label>Comentarios</label><br>
+    <textarea name="comentarios" rows="10"></textarea><br><br>
+
+    <button>Salvar</button>
+
+    </form>
+
+    <footer>
+        <p>Desenvolvido por Getulio Moreira!</p>
+    </footer>
+
+</body>
+
+</html>
