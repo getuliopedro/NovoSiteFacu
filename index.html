@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/stylle.css">
     <title>Viagem dos Sonhos</title>
 </head>
@@ -11,12 +13,44 @@
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Pacotes</a></li>
-                <li><a href="#">cidades</a></li>
-                <li><a href="#">contatos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-warning ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Cia Viagens </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">taxas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                contatos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">telefone</a></li>
+                                <li>
+                                    <hr>
+                                </li>
+                                <li><a class="dropdown-item" href="#">e-mail</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">mensagem</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
         </nav>
         <h1>Venha realizar a viagem dos seus sonhos!</h1>
     </header>
@@ -27,38 +61,31 @@
             ratione
             repellendus similique tempore quae harum dicta atque, labore consectetur! Numquam expedita nisi incidunt
             doloremque cupiditate?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id velit quibusdam obcaecati enim voluptatibus sed
+            eveniet, necessitatibus voluptate. Debitis possimus iste facilis, accusantium incidunt aliquid provident
+            sint hic quisquam aperiam.
             <Br><Br>
             <a href="https://www.lipsum.com/">Link</a>
 
         </p>
         <hr>
-        <div class="figuras">
-            <figure style="display: inline-block;">
+        <div class="row">
+            <figure class="col text-center ">
                 <img src="img/cristorj.png" alt="cristo redentor rj">
                 <figcaption style="cursor:wait;">Rio de Janeiro</figcaption>
             </figure>
-            <figure style="display: inline-block;">
+            <figure class="col text-center">
                 <img src="img/dunasmaraipeal.png" alt="Dunas Maceio Al">
                 <figcaption style="cursor:wait;">Maceio</figcaption>
             </figure>
-            <figure style="display: inline-block;">
+            <figure class="col text-center">
                 <img src="/img/lagoparanoadf.png" alt="Lago Paranoa DF">
                 <figcaption style="cursor:wait;">Brasilia</figcaption>
             </figure>
-            <figure style="display: inline-block;">
+            <figure class="col text-center">
                 <img src="/img/pelourinhoba.png" alt="Pelourinho BA">
                 <figcaption style="cursor:wait;">Bahia</figcaption>
             </figure>
-        </div>
-
-        <div class="videos">
-            <video controls width="420" height="320">
-                <source src="videos/pexels-roman-odintsov-6577549 (2160p).mp4" type="video/mp4">
-                <source src="videos/pexels-swapnil-shiwalay-20329674 (1080p).webm" type="video/webm">
-                Seu navegador nao suporta esse tipo de midia. <a
-                    href="videos/pexels-roman-odintsov-6577549 (2160p).mp4">click
-                    aqui para baixar</a>
-            </video>
         </div>
 
 
@@ -76,6 +103,10 @@
                 </tr>
             </thead>
             <tbody>
+                <tr>
+                    <td>Compras de Passagens</td>
+                    <td>valor R$10.000,00</td>
+                </tr>
                 <tr>
                     <td>reserva de hotel</td>
                     <td>valor R$500,00</td>
@@ -156,6 +187,10 @@
     <footer>
         <p>Desenvolvido por Getulio Moreira!</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 
